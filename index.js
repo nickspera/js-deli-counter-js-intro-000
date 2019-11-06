@@ -14,7 +14,7 @@ If they are 7th in line, tell them that. Don't get their hopes up by telling the
 var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, customerName){
-  katzDeliLine.push(name);
+  katzDeliLine.push(customerName);
   return (`Welcome, ${customerName}. You are number ${katzDeliLine.length} in line.`);
 
 };
