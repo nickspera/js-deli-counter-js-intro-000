@@ -22,9 +22,9 @@ function currentLine(katzDeliLineLine){
       }
         else {
           lineAsString = `The line is currently: `
-            for(var i = 0; i < katzDeliLine.length ; i++){
+            for (var i = 0; i < katzDeliLine.length ; i++){
               if (i === 0){
-                lineAsString = `${lineAsString} ${i+1}. ${katzDeliLine[i]}`;
+                lineAsString = "lineAsString" + `${i+1}. ${katzDeliLine[i]}`;
               }
                 else {
                   lineAstString = `${lineAsString}, ${i+1}. ${katzDeliLine[i]}`;
