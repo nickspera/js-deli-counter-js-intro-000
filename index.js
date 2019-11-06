@@ -21,16 +21,16 @@ function takeANumber(katzDeliLine, customerName){
 
 function nowServing(line){
   if (!line.length) {
-    return "There is nobody waiting to be served!"
+    return "There is nobody waiting to be served!";
 } else {
-    return `Currently serving ${line.shift()}.`
+    return `Currently serving ${line.shift()}.`;
   }
 }
 
 function currentLine(katzDeliLine) {
   if (katzDeliLine === katzDeliLine.length) {
     for (var i = 0; i < katzDeliLine.length; 1++) {
-      return (`The line is currently:`) 
+      return (`The line is currently:`)
     }
   } else {
       return "The line is currently empty."
