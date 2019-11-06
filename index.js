@@ -14,22 +14,9 @@ function nowServing(katzDeliLine){
   }
 }
 
-
-function currentLine(katzDeliLineLine){
-  var lineAsString;
-  if (katzDeliLine.length === 0) {
-    lineAsString = `The line is currently empty.`
-      }
-        else {
-          lineAsString = `The line is currently: `
-            for (var i = 0; i < katzDeliLine.length ; i++){
-              if (i === 0){
-                lineAsString = lineAsString + `${i+1}. ${katzDeliLine[i]}`;
-              }
-                else {
-                  lineAstString = lineAsString + `, ${i+1}. ${katzDeliLine[i]}`;
-                }
-              }
-            }
-            return lineAsString;
+function currentLine(katzDeliLine) {
+    for (var i = 0; i < katzDeliLine.length; i++) {
+      return `The line is currently: ${i+1}. ${katzDeliLine}`;
+    }
+      return "The line is currently empty.";
 }
