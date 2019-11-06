@@ -16,7 +16,7 @@ function nowServing(line){
 
 function currentLine(katzDeliLine) {
     for (var i = 0; i < katzDeliLine; i++) {
-      return `The line is currently: ${i}. ${katzDeliLine[i]}`;
+      return (`The line is currently: ${i}. ${katzDeliLine[i]}`);
     }
       return "The line is currently empty.";
 }
