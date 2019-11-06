@@ -28,10 +28,11 @@ function nowServing(line){
 }
 
 function currentLine(katzDeliLine) {
-  if (katzDeliLine === katzDeliLine.length){
+  if (katzDeliLine === katzDeliLine.length) {
     for (var i = 0; i < katzDeliLine.length; 1++) {
-      return (`The line is currently:` + katzDeliLine[i] ) 
+      return (`The line is currently:`) 
     }
-  }
+  } else {
       return "The line is currently empty."
+      }
 }
