@@ -25,3 +25,4 @@ var lineNames = [];
     }
 
     return `The line is currently: ${lineNames.join(', ')}`;
+}
