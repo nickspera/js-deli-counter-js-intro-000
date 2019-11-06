@@ -15,7 +15,7 @@ var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, customerName){
   katzDeliLine.push(customerName);
-  return (`Welcome, ${customerName}. You are number ${katzDeliLine.length} in line.`);
+  return `Welcome, ${customerName}. You are number ${katzDeliLine.length} in line.`;
 
 };
 
@@ -30,7 +30,7 @@ function nowServing(line){
 function currentLine(katzDeliLine) {
   if (katzDeliLine === katzDeliLine.length) {
     for (var i = 0; i < katzDeliLine.length; i++) {
-      return (`The line is currently:`)
+      return (`The line is currently:` )
     }
   } else {
       return "The line is currently empty."
