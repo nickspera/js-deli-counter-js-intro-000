@@ -6,17 +6,17 @@ function takeANumber(katzDeliLine, customerName){
 
 };
 
-function nowServing(line){
-  if (!line.length) {
+function nowServing(katzDeliLine){
+  if (!katzDeliLine.length) {
     return "There is nobody waiting to be served!";
 } else {
-    return `Currently serving ${line.shift()}.`;
+    return `Currently serving ${katzDeliLine.shift()}.`;
   }
 }
 
 function currentLine(katzDeliLine) {
     for (var i = 0; i < katzDeliLine.length; i++) {
-      return `The line is currently: ${i+1}. ${katzDeliLine[i]}, ${i+2}. ${katzDeliLine[i+1]}, ${i+3}. ${katzDeliLine[i+2]} `;
+      return `The line is currently: ${i+1}. ${katzDeliLine[i]},`;
     }
       return "The line is currently empty.";
 }
