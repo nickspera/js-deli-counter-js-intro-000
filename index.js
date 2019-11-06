@@ -26,3 +26,12 @@ function nowServing(line){
     return `Currently serving ${line.shift()}.`
   }
 }
+
+function currentLine(katzDeliLine) {
+  if (katzDeliLine === katzDeliLine.length){
+    for (var i = 0; i < katzDeliLine.length; 1++) {
+      return (`The line is currently:` + katzDeliLine[i] ) 
+    }
+  }
+      return "The line is currently empty."
+}
