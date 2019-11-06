@@ -26,7 +26,7 @@ function currentLine(katzDeliLineLine){
               if (i === 0){
                 lineAsString = `${lineAsString} ${i+1}. ${katzDeliLine[i]}`;
               }
-                else{
+                else {
                   lineAstString = `${lineAsString}, ${i+1}. ${katzDeliLine[i]}`;
                 }
               }
