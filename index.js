@@ -11,18 +11,17 @@ And don't go being too programmer-y and give them their index. These are normal 
 If they are 7th in line, tell them that. Don't get their hopes up by telling them they are number 6 in line.
 */
 
-var katzDeliLine = [];
+// var katzDeliLine = [];
+//
+// function takeANumber(katzDeliLine, name){
+//   katzDeliLine.push(name);
+//   return ("Welcome, ${name}. You are number ${katzDeliLine.length} in line.");
+//
+// };
 
-function takeANumber(line, name){
-  line.push(name)
-
-return (`Welcome, ${name}. You are number ${line.length} in line.`)
-
-};
-
-function nowServing(line){
-  if(!line.length);
-  return "There is nobody waiting to be served!"
-}
- return `Currently serving ${line.shift()}.`
-};
+// function nowServing(line){
+//   if(!line.length) {
+//   return "There is nobody waiting to be served!"
+// }
+//  return `Currently serving ${line.shift()}.`
+// };
