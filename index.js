@@ -18,16 +18,16 @@ function nowServing(katzDeliLine){
 function currentLine(katzDeliLineLine){
   var lineAsString;
   if (!katzDeliLine.length) {
-    lineAsString = “The line is currently empty.”
+    lineAsString = `The line is currently empty.`
       }
         else {
-          lineAsString = “The line is currently: ”
+          lineAsString = `The line is currently: `
             for(var i = 0; i < katzDeliLine.length ; i++){
               if (i === 0){
-                lineAsString = lineAsString + (i+1) + “. ” + katzDeliLine[i];
+                lineAsString = `${lineAsString} ${i+1}. ${katzDeliLine[i]}`;
               }
                 else{
-                  lineAstString = lineAsString + “, ” + (i+1) + “. ” + katzDeliLine[i];
+                  lineAstString = `${lineAsString}, ${i+1}. ${katzDeliLine[i]}`;
                 }
               }
             }
